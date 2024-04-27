@@ -46,7 +46,7 @@ public class TextIOInfo implements Serializable {
     private int mLabelSize = 14;
     /** The text color of label. Defaults to {@link Color#BLACK}. */
     private int mLabelColor = Color.BLACK;
-    /** The {@link Typeface} family  of label. Defaults to "sans-serif". */
+    /** The {@link Typeface} family  of label. Defaults to "sec". */
     private String mLabelTypeFaceFamily = "sec";
     /** The {@link Typeface} style  of label. Defaults to {@link Typeface#BOLD}. */
     private int mLabelTypeFaceStyle = Typeface.BOLD;
