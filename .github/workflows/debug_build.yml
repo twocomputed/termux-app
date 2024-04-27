@@ -3,10 +3,10 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - fonts2
   pull_request:
     branches:
-      - master
+      - fonts2
 
 jobs:
   build:
