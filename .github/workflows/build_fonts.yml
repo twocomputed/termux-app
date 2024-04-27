@@ -3,10 +3,10 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - fonts2
   pull_request:
     branches:
-      - master
+      - fonts2
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v4
 
-      - name: Build APKs
+      - name: Build Font APKs
         shell: bash {0}
         env:
           PACKAGE_VARIANT: ${{ matrix.package_variant }}
